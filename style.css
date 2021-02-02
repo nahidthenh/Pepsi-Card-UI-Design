@@ -49,6 +49,7 @@ body{
 }
 .card:hover .circle:before{
     background: #0065c3;
+    background-color: black;
     clip-path: circle(400px at center);
 }
 .card img{
@@ -115,6 +116,13 @@ body{
         height: 600px;
     }
     .card .content{
-        
+        width:100%;
+        left: 0;
+        padding: 30px;
+    }
+    .card:hover img{
+        top: 70%;
+        left: 60%;
+        height: 300px;
     }
 }
